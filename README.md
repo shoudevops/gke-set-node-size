@@ -1,5 +1,5 @@
 # Cloud Function
-Invoke Cloud Function API to set GKE node pool size.
+Invoke Cloud Function HTTP API to set GKE node pool size.
 
 ## Headers
 ```text
@@ -48,4 +48,11 @@ Content-Type: application/json; charset=utf-8
     "node_pool_id": "default-pool",
     "node_count": 5
 }
+```
+
+## Install requirements
+```shell
+python3 -m venv venv
+source  venv/bin/activate
+pip3 install -r requirements.txt
 ```
