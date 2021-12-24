@@ -1,6 +1,11 @@
 # Cloud Function
 Invoke Cloud Function HTTP API to set GKE node pool size.
 
+Reference:
+1. [Your First Function: Python](https://cloud.google.com/functions/docs/first-python)
+2. [Method: projects.locations.clusters.nodePools.setSize](https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools/setSize)
+3. [Troubleshooting Cloud Functions](https://cloud.google.com/functions/docs/troubleshooting#logging)
+
 ## Headers
 ```text
 Content-Type: application/json; charset=utf-8
